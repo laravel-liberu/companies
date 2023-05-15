@@ -6,7 +6,7 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/companies/downloads)](https://packagist.org/packages/laravel-enso/companies)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/companies/version)](https://packagist.org/packages/laravel-enso/companies)
 
-Company management dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Company management dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
 
 [![Screenshot](https://laravel-enso.github.io/companies/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/companies/screenshots/bulma_001.png)
 
