@@ -9,7 +9,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('companies', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
             $table->string('name')->unique()->index();
 
@@ -29,11 +29,9 @@ return new class extends Migration
             $table->tinyInteger('status');
             $table->boolean('is_tenant')->nullable();
 
-            $table->integer('created_by')->unsigned()->index()->nullable();
-            $table->foreign('created_by')->references('id')->on('users');
+            $table->foreignId('created_by')->nullable()->constrained('users')->index()->name('comments_created_by_foreign');
 
-            $table->integer('updated_by')->unsigned()->index()->nullable();
-            $table->foreign('updated_by')->references('id')->on('users');
+            $table->foreignId('updated_by')->nullable()->constrained('users')->index()->name('comments_updated_by_foreign');
 
             $table->timestamps();
 
