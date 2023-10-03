@@ -9,10 +9,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('company_person', function (Blueprint $table) {
-            $table->foreignId('company_id')->constrained('companies')->index()->name('company_person_company_id_foreign');
+            $table->foreignId('company_id')->constrained('companies')->index()->name('company_person_company_id_foreign')
                 ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->foreignId('person_id')->constrained('people')->index()->name('company_person_person_id_foreign');
+            $table->foreignId('person_id')->constrained('people')->index()->name('company_person_person_id_foreign')
                 ->onUpdate('cascade')->onDelete('cascade');
 
             $table->string('position')->nullable();
