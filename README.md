@@ -6,11 +6,11 @@
 [![Total Downloads](https://poser.pugx.org/liberu.co.ukpanies/downloads)](https://packagist.org/packages/liberu.co.ukpanies)
 [![Latest Stable Version](https://poser.pugx.org/liberu.co.ukpanies/version)](https://packagist.org/packages/liberu.co.ukpanies)
 
-Company management dependency for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
+Company management dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-[![Screenshot](https://laravel-enso.github.io/companies/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/companies/screenshots/bulma_001.png)
+[![Screenshot](https://laravel-liberu.github.io/companies/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/companies/screenshots/bulma_001.png)
 
-[![Screenshot](https://laravel-enso.github.io/companies/screenshots/bulma_002_thumb.png)](https://laravel-enso.github.io/companies/screenshots/bulma_002.png)
+[![Screenshot](https://laravel-liberu.github.io/companies/screenshots/bulma_002_thumb.png)](https://laravel-liberu.github.io/companies/screenshots/bulma_002.png)
 
 <sup>click on the photo to view a large size screenshot</sup>
 

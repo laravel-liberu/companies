@@ -27,11 +27,11 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
-        ], ['companies-factory', 'enso-factories']);
+        ], ['companies-factory', 'liberu-factories']);
 
         $this->publishes([
             __DIR__.'/../database/seeders' => database_path('seeders'),
-        ], ['companies-seeder', 'enso-seeders']);
+        ], ['companies-seeder', 'liberu-seeders']);
 
         return $this;
     }

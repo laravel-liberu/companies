@@ -36,7 +36,7 @@ class Company extends Model
 
     public static function owner()
     {
-        return static::cacheGet(Config::get('enso.config.ownerCompanyId'));
+        return static::cacheGet(Config::get('liberu.config.ownerCompanyId'));
     }
 
     public function isTenant()
