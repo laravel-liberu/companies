@@ -4,7 +4,7 @@
     "sheets": [
         {
             "name": "companies",
-            "importerClass": "LaravelEnso\\Companies\\Imports\\Importers\\Company",
+            "importerClass": "LaravelLiberu\\Companies\\Imports\\Importers\\Company",
             "columns": [
                 {
                     "name": "name",

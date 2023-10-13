@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Companies;
+namespace LaravelLiberu\Companies;
 
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Searchable\SearchServiceProvider as ServiceProvider;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Searchable\SearchServiceProvider as ServiceProvider;
 
 class SearchServiceProvider extends ServiceProvider
 {

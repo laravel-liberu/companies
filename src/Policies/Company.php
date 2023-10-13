@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Companies\Policies;
+namespace LaravelLiberu\Companies\Policies;
 
-use LaravelEnso\Companies\Models\Company as Model;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Companies\Models\Company as Model;
+use LaravelLiberu\Users\Models\User;
 
 class Company
 {

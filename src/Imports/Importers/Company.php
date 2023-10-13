@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Companies\Imports\Importers;
+namespace LaravelLiberu\Companies\Imports\Importers;
 
-use LaravelEnso\Companies\Models\Company as Model;
-use LaravelEnso\DataImport\Contracts\Importable;
-use LaravelEnso\DataImport\Models\Import;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Companies\Models\Company as Model;
+use LaravelLiberu\DataImport\Contracts\Importable;
+use LaravelLiberu\DataImport\Models\Import;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Company implements Importable
 {

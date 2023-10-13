@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Companies\Forms\Builders;
+namespace LaravelLiberu\Companies\Forms\Builders;
 
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\People\Models\Person as Model;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\People\Models\Person as Model;
 
 class Person
 {

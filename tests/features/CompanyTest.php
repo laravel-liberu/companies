@@ -1,11 +1,11 @@
 <?php
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\Forms\TestTraits\DestroyForm;
-use LaravelEnso\Forms\TestTraits\EditForm;
-use LaravelEnso\Tables\Traits\Tests\Datatable;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\Forms\TestTraits\DestroyForm;
+use LaravelLiberu\Forms\TestTraits\EditForm;
+use LaravelLiberu\Tables\Traits\Tests\Datatable;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class CompanyTest extends TestCase

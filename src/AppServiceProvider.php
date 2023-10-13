@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Companies;
+namespace LaravelLiberu\Companies;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Companies\Models\Company;
+use LaravelLiberu\Companies\Models\Company;
 
 class AppServiceProvider extends ServiceProvider
 {

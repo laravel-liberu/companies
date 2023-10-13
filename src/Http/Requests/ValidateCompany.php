@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\Companies\Http\Requests;
+namespace LaravelLiberu\Companies\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
-use LaravelEnso\Companies\Enums\Statuses;
-use LaravelEnso\Helpers\Traits\FiltersRequest;
+use LaravelLiberu\Companies\Enums\Statuses;
+use LaravelLiberu\Helpers\Traits\FiltersRequest;
 
 class ValidateCompany extends FormRequest
 {

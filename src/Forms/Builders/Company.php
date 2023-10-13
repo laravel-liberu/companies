@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Companies\Forms\Builders;
+namespace LaravelLiberu\Companies\Forms\Builders;
 
-use LaravelEnso\Companies\Enums\Statuses;
-use LaravelEnso\Companies\Models\Company as Model;
-use LaravelEnso\Forms\Services\Form;
+use LaravelLiberu\Companies\Enums\Statuses;
+use LaravelLiberu\Companies\Models\Company as Model;
+use LaravelLiberu\Forms\Services\Form;
 
 class Company
 {

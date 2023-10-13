@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Users\Models\User;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Users\Models\User;
 use Tests\TestCase;
 
 class CompanyPeopleTest extends TestCase

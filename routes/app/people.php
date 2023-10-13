@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Companies\Http\Controllers\Person\Create;
-use LaravelEnso\Companies\Http\Controllers\Person\Destroy;
-use LaravelEnso\Companies\Http\Controllers\Person\Edit;
-use LaravelEnso\Companies\Http\Controllers\Person\Index;
-use LaravelEnso\Companies\Http\Controllers\Person\Store;
-use LaravelEnso\Companies\Http\Controllers\Person\Update;
+use LaravelLiberu\Companies\Http\Controllers\Person\Create;
+use LaravelLiberu\Companies\Http\Controllers\Person\Destroy;
+use LaravelLiberu\Companies\Http\Controllers\Person\Edit;
+use LaravelLiberu\Companies\Http\Controllers\Person\Index;
+use LaravelLiberu\Companies\Http\Controllers\Person\Store;
+use LaravelLiberu\Companies\Http\Controllers\Person\Update;
 
 Route::prefix('people')
     ->as('people.')

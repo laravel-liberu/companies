@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Companies;
+namespace LaravelLiberu\Companies;
 
-use LaravelEnso\Companies\Enums\Statuses;
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\Companies\Enums\Statuses;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
 
 class EnumServiceProvider extends ServiceProvider
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Companies\Http\Controllers\Company;
+namespace LaravelLiberu\Companies\Http\Controllers\Company;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Companies\Tables\Builders\Company;
-use LaravelEnso\Tables\Traits\Data;
+use LaravelLiberu\Companies\Tables\Builders\Company;
+use LaravelLiberu\Tables\Traits\Data;
 
 class TableData extends Controller
 {

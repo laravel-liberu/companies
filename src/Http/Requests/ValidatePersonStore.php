@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Companies\Http\Requests;
+namespace LaravelLiberu\Companies\Http\Requests;
 
-use LaravelEnso\People\Models\Person;
+use LaravelLiberu\People\Models\Person;
 
 class ValidatePersonStore extends ValidatePersonUpdate
 {

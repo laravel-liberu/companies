@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Companies\Exceptions;
+namespace LaravelLiberu\Companies\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class Company extends EnsoException
 {

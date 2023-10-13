@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Companies\Database\Factories;
+namespace LaravelLiberu\Companies\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-use LaravelEnso\Companies\Enums\Statuses;
-use LaravelEnso\Companies\Models\Company;
+use LaravelLiberu\Companies\Enums\Statuses;
+use LaravelLiberu\Companies\Models\Company;
 
 class CompanyFactory extends Factory
 {

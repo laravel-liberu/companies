@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\Companies\Http\Resources;
+namespace LaravelLiberu\Companies\Http\Resources;
 
-use LaravelEnso\People\Http\Resources\Person as Resource;
+use LaravelLiberu\People\Http\Resources\Person as Resource;
 
 class Person extends Resource
 {

@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Companies\Http\Controllers\Company\Create;
-use LaravelEnso\Companies\Http\Controllers\Company\Destroy;
-use LaravelEnso\Companies\Http\Controllers\Company\Edit;
-use LaravelEnso\Companies\Http\Controllers\Company\ExportExcel;
-use LaravelEnso\Companies\Http\Controllers\Company\InitTable;
-use LaravelEnso\Companies\Http\Controllers\Company\Options;
-use LaravelEnso\Companies\Http\Controllers\Company\Store;
-use LaravelEnso\Companies\Http\Controllers\Company\TableData;
-use LaravelEnso\Companies\Http\Controllers\Company\Update;
+use LaravelLiberu\Companies\Http\Controllers\Company\Create;
+use LaravelLiberu\Companies\Http\Controllers\Company\Destroy;
+use LaravelLiberu\Companies\Http\Controllers\Company\Edit;
+use LaravelLiberu\Companies\Http\Controllers\Company\ExportExcel;
+use LaravelLiberu\Companies\Http\Controllers\Company\InitTable;
+use LaravelLiberu\Companies\Http\Controllers\Company\Options;
+use LaravelLiberu\Companies\Http\Controllers\Company\Store;
+use LaravelLiberu\Companies\Http\Controllers\Company\TableData;
+use LaravelLiberu\Companies\Http\Controllers\Company\Update;
 
 Route::get('create', Create::class)->name('create');
 Route::post('', Store::class)->name('store');

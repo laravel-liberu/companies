@@ -1,21 +1,21 @@
 <?php
 
-namespace LaravelEnso\Companies\Models;
+namespace LaravelLiberu\Companies\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\RoutesNotifications;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Addresses\Traits\Addressable;
-use LaravelEnso\DynamicMethods\Traits\Abilities;
-use LaravelEnso\Helpers\Traits\AvoidsDeletionConflicts;
-use LaravelEnso\Helpers\Traits\CascadesMorphMap;
-use LaravelEnso\People\Models\Person;
-use LaravelEnso\Rememberable\Traits\Rememberable;
-use LaravelEnso\Tables\Traits\TableCache;
-use LaravelEnso\TrackWho\Traits\CreatedBy;
-use LaravelEnso\TrackWho\Traits\UpdatedBy;
+use LaravelLiberu\Addresses\Traits\Addressable;
+use LaravelLiberu\DynamicMethods\Traits\Abilities;
+use LaravelLiberu\Helpers\Traits\AvoidsDeletionConflicts;
+use LaravelLiberu\Helpers\Traits\CascadesMorphMap;
+use LaravelLiberu\People\Models\Person;
+use LaravelLiberu\Rememberable\Traits\Rememberable;
+use LaravelLiberu\Tables\Traits\TableCache;
+use LaravelLiberu\TrackWho\Traits\CreatedBy;
+use LaravelLiberu\TrackWho\Traits\UpdatedBy;
 
 class Company extends Model
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Companies\Http\Controllers\Person;
+namespace LaravelLiberu\Companies\Http\Controllers\Person;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Companies\Forms\Builders\Person as Form;
-use LaravelEnso\Companies\Models\Company;
-use LaravelEnso\People\Models\Person;
+use LaravelLiberu\Companies\Forms\Builders\Person as Form;
+use LaravelLiberu\Companies\Models\Company;
+use LaravelLiberu\People\Models\Person;
 
 class Edit extends Controller
 {

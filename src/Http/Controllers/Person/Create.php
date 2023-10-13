@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Companies\Http\Controllers\Person;
+namespace LaravelLiberu\Companies\Http\Controllers\Person;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Companies\Forms\Builders\Person;
-use LaravelEnso\Companies\Models\Company;
+use LaravelLiberu\Companies\Forms\Builders\Person;
+use LaravelLiberu\Companies\Models\Company;
 
 class Create extends Controller
 {
