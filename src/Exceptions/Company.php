@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\Companies\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Company extends EnsoException
+class Company extends LiberuException
 {
     public static function dissociateMandatary()
     {
